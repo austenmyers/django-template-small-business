@@ -28,7 +28,7 @@ from ._media import TEMPLATES
 
 WSGI_APPLICATION = 'config.wsgi.application'
 
-from ._auth import AUTH_PASSWORD_VALIDATORS
+from ._auth import *
 
 from ._formats import *
 

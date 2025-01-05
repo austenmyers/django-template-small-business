@@ -15,4 +15,4 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-AUTH_USER_MODEL = 'project_apps.users.CustomUSer'
+AUTH_USER_MODEL = 'users.CustomUser'

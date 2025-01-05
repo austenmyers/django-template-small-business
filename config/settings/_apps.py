@@ -9,10 +9,10 @@ default_apps = [
 
 project_apps = [
     'project_apps.home',
-    'project_apps.users',
+    'users',
 ]
 
-INSTALLED_APPS = default_apps + project_apps
+INSTALLED_APPS =  project_apps + default_apps
 
 default_middleware = [
     'django.middleware.security.SecurityMiddleware',

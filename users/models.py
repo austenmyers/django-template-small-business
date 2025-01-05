@@ -6,7 +6,7 @@ from django.utils.translation import gettext_lazy as _
 from .managers import CustomUserManager
 
 
-class CustomerUser(AbstractBaseUser, PermissionsMixin):
+class CustomUser(AbstractBaseUser, PermissionsMixin):
     email = dj.EmailField(
         _('email_address'),
         unique=True
@@ -16,6 +16,16 @@ class CustomerUser(AbstractBaseUser, PermissionsMixin):
     date_joined = dj.DateTimeField(
         default=timezone.now
     )
+    # groups = dj.ManyToManyField(
+    #     'auth.group',
+    #     blank=True,
+    #     related_name='custom_user_groups',
+    # )
+    # permissions = dj.ManyToManyField(
+    #     'auth.permission',
+    #     blank=True,
+    #     related_name='custom_user_permissions',
+    # )
 
     USERNAME_FIELD = 'email'
     REQUIRED_FIELDS = []
