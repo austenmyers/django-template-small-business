@@ -8,7 +8,8 @@ default_apps = [
 ]
 
 project_apps = [
-    'project_apps.home'
+    'project_apps.home',
+    'project_apps.personnel',
 ]
 
 INSTALLED_APPS = default_apps + project_apps
