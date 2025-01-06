@@ -2,7 +2,7 @@ from django.db import models as dj
 from django.core.validators import MinLengthValidator, MaxValueValidator, MinValueValidator
 from django.utils.timezone import now
 
-from .base_models import PaymentCard, BankAccount, WeeklySchedule
+from .models import PaymentCard, BankAccount, WeeklySchedule
 from .data import UnitedStates
 from .functions import get_document_upload_path
 

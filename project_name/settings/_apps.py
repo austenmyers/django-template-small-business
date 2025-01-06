@@ -10,6 +10,7 @@ default_apps = [
 project_apps = [
     'web_views',
     'users',
+    'utils',
 ]
 
 packages = [
