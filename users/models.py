@@ -5,8 +5,8 @@ from django.utils.translation import gettext_lazy as _
 from phone_field import PhoneField
 
 from .managers import CustomUserManager
-from .utils.fields import USAddress, UserPaymentCard, Position, PayRate, UserDocument, EmploymentEvent, ScheduledTime, DepositAccount, StaffAvailability
-from .utils import get_profile_picture_upload_path
+from utils.fields import USAddress, UserPaymentCard, Position, PayRate, UserDocument, EmploymentEvent, ScheduledTime, DepositAccount, StaffAvailability
+from utils.functions import get_profile_picture_upload_path
 
 class CustomUser(AbstractBaseUser, PermissionsMixin):
     class Meta:

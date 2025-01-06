@@ -5,7 +5,7 @@ from django.contrib.admin import ModelAdmin, StackedInline
 
 from .forms import CustomUserCreationForm, CustomUserChangeForm
 from .models import CustomUser, Profile, ContactInfo, CustomerProfile, StaffProfile
-from .utils.fields import USAddress, UserPaymentCard, Position, PayRate, UserDocument, EmploymentEvent, ScheduledTime, DepositAccount, StaffAvailability
+from utils.fields import USAddress, UserPaymentCard, Position, PayRate, UserDocument, EmploymentEvent, ScheduledTime, DepositAccount, StaffAvailability
 
 
 admin.site.unregister(Group)
