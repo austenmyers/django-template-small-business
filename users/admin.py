@@ -114,6 +114,6 @@ class CustomUserAdmin(UserAdmin):
     ]
     
     def full_name(self, user):
-        from .utils import format_name
+        from utils.functions import format_name
 
         return format_name(user, format='last, first MI')
