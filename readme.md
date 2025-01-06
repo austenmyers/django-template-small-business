@@ -26,11 +26,8 @@
         - <code>DATABASE_URL=sqlite:///db.sqlite3</code>
 
 - Updating Template
-    - change |project_name| to {{ project_name }} in:
-        - asgi.py
-        - wsgi.py
-        - settings/base.py (x2)
-        - manage.py
-    - push to https://github.com/austenmyers/django-template-small-business
-    - update this readme with new version number
-    - create new release
+    - create new project from template
+    - add new apps / make changes
+    - test project
+    - copy changes to this repo
+    - push
