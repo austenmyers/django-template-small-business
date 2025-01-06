@@ -22,11 +22,11 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 from ._apps import INSTALLED_APPS, MIDDLEWARE
 
-ROOT_URLCONF = 'config.urls'
+ROOT_URLCONF = '{{ project_name }}.urls'
 
 from ._media import TEMPLATES
 
-WSGI_APPLICATION = 'config.wsgi.application'
+WSGI_APPLICATION = '{{ project_name }}.wsgi.application'
 
 from ._auth import *
 
