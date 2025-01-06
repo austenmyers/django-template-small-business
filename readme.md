@@ -11,6 +11,8 @@
 
 - django
 - django-environ
+- django-phone-field
+- pillow
 
 ## Usage
 
