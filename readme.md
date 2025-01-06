@@ -32,4 +32,10 @@
     - add new apps / make changes
     - test project
     - copy changes to this repo
+    - update this readme
     - push
+    - create new release
+        - 0.0.0
+        - major version number
+        - new feature
+        - minor changes / bug fixes
