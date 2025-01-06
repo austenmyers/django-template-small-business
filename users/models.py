@@ -105,6 +105,7 @@ class CustomerProfile(dj.Model):
     )
     payment_methods = dj.ManyToManyField(
         UserPaymentCard,
+        blank=True,
         related_name='user_payment_cards'
     )
     transaction_history = dj.CharField(blank=True, max_length=25)

@@ -8,12 +8,15 @@ default_apps = [
 ]
 
 project_apps = [
-    'project_apps.home',
+    'web_views',
     'users',
+]
+
+packages = [
     'phone_field',
 ]
 
-INSTALLED_APPS =  project_apps + default_apps
+INSTALLED_APPS =  project_apps + packages + default_apps
 
 default_middleware = [
     'django.middleware.security.SecurityMiddleware',
