@@ -24,7 +24,7 @@
     - <code>py -m venv venv</code>
     - <code>.\venv\Scripts\activate</code>
     - <code>pip install django</code>
-    - <code>django-admin startproject --template https://github.com/austenmyers/django-template-small-business/archive/refs/tags/v0.2.4.zip |project_name| .</code>
+    - <code>django-admin startproject --template https://github.com/austenmyers/django-template-small-business/archive/refs/tags/v0.2.5.zip |project_name| .</code>
     - <code>pip install -r requirements.txt</code>
     - create <code>.env</code> with:
         - <code>DEBUG=True</code>
