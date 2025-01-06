@@ -10,6 +10,7 @@ default_apps = [
 project_apps = [
     'project_apps.home',
     'users',
+    'phone_field',
 ]
 
 INSTALLED_APPS =  project_apps + default_apps
